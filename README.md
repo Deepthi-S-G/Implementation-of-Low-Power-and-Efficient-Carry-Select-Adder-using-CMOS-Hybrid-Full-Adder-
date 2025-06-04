@@ -53,7 +53,7 @@ The CSA is composed of several key building blocks:
 ### Schematic of Full Adder
 ![Schematic of Full Adder](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Schematic%20of%20Full%20Adder.png)
 ### 2:1 Multiplexer
-![2:1 Multiplexer]()
+![2:1 Multiplexer](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/21%20Multiplexer.png)
 
 ## Methodology
 
