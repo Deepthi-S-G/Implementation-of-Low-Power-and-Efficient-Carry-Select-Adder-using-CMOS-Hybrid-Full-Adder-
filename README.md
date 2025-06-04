@@ -48,16 +48,22 @@ The CSA is composed of several key building blocks:
 
 ### Block diagram of 8-bit Carry Select Adder
 ![8-bit Carry Select Adder](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Block%20diagram%20of%208-bit%20Carry%20Select%20Adder.png)
+
+
 ### Block Diagram of 4-bit Full Adder
 ![4-bit Full Adder](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Block%20Diagram%20of%204-bit%20Full%20Adder.png)
+
+
 ### Schematic of Full Adder
 ![Schematic of Full Adder](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Schematic%20of%20Full%20Adder.png)
+
+
 ### 2:1 Multiplexer
 ![2:1 Multiplexer](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/21%20Multiplexer.png)
 
 ## Methodology
 
-it represents the flow chart that explains the workflow of our project where we have implemented the Carry Select Adder in the cadence virtuoso tool and transistor-level design (Schematic diagrams). Then verification is done and the simulation results in different blocks of CSA.
+This represents the flow chart that explains the workflow of our project where we have implemented the Carry Select Adder in the cadence virtuoso tool and transistor-level design (Schematic diagrams). Then verification is done and the simulation results in different blocks of CSA.
 ![methodology block diagram](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Methodology.png)
 
 
@@ -67,6 +73,8 @@ All simulations were performed in Cadence Virtuoso. Key highlights:
 ### Transmission Gate
 - Simulated with pulse input.
 - Output closely follows input indicating correct switching behavior.
+
+  
 ![Transmission Gate Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Transmission%20Gate%20Waveform.png)
 ![Transmission Gate Layout](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Transmission%20Gate%20layout.png)
 
@@ -75,7 +83,11 @@ All simulations were performed in Cadence Virtuoso. Key highlights:
 - Layout verified with DRC and LVS.
 
 ![Full Adder Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Full%20Adder%20Waveform.png)
+
+
 ![Full Adder Layout](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/Full%20Adder%20layout.png)
+
+
 
 ### 4-bit Ripple Carry Adder
 
@@ -83,24 +95,33 @@ All simulations were performed in Cadence Virtuoso. Key highlights:
 - Transient simulations validate signal transitions. 
 
 ![4-bit Ripple Carry Adder Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/4-bit%20Ripple%20Carry%20Adder%20Waveform.png)
+
+
 ![4-bit Ripple Carry Adder Layout](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/4-bit%20Ripple%20Carry%20Adder%20%20layout.png)
 
 ### 2:1 MUX
 - Validated using control line to switch inputs.
-- Layout successful. 
+- Layout successful.
+
+  
 ![2:1 MUX Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/21%20MUX%20schematic.png)
+
+
 ![2:1 MUX Layout](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/21%20MUX%20layout.png)
+
+
 #### 8-bit CSA
 - Layout passed DRC and LVS.
 - Final waveform shows accurate sum and carry generation.
 ![8-bit CSA Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/CSA%20Waveform.png)
 ![8-bit CSA Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/CSA%20Waveform%202.png)
+
+
 ![8-bit CSA Layout](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/CSA%20%20layout.png)
 
 ## Performance Metrics
 #### Module	Reference Power (mW) | Implemented Power (µW)
 Full Adder : 24	| 92.8
-
 CSA (8-bit) : 122 | 769.4
 #### Summary
 - Power: Reduced compared to standard CMOS implementations
