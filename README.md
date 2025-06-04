@@ -67,33 +67,35 @@ All simulations were performed in Cadence Virtuoso. Key highlights:
 ### Transmission Gate
 - Simulated with pulse input.
 - Output closely follows input indicating correct switching behavior.
-![diagram 1]()
-![diagram 2]()
+![Transmission Gate Waveform]()
+![Transmission Gate Layout]()
 
 ### Full Adder
 - Verified with waveform outputs matching truth table.
 - Layout verified with DRC and LVS.
 
-![diagram 1]()
-![4-bit Ripple Carry Adder]()
+![Full Adder Waveform]()
+![Full Adder Layout]()
+
+### 4-bit Ripple Carry Adder
 
 - Functional waveform confirms expected output.
 - Transient simulations validate signal transitions. 
 
-![diagram 1]()
-![diagram 2]()
+![4-bit Ripple Carry Adder Waveform]()
+![4-bit Ripple Carry Adder Layout]()
 
 ### 2:1 MUX
 - Validated using control line to switch inputs.
 - Layout successful. 
-![diagram 1]()
-![diagram 2]()
+![2:1 MUX Waveform]()
+![2:1 MUX Layout]()
 #### 8-bit CSA
 - Layout passed DRC and LVS.
 - Final waveform shows accurate sum and carry generation.
-![diagram 1]()
-![diagram 2]()
-![diagram 3]()
+![8-bit CSA Waveform]()
+![8-bit CSA Waveform]()
+![8-bit CSA Layout]()
 
 ## Performance Metrics
 #### Module	Reference Power (mW) | Implemented Power (µW)
