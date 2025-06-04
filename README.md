@@ -88,8 +88,8 @@ All simulations were performed in Cadence Virtuoso. Key highlights:
 ### 2:1 MUX
 - Validated using control line to switch inputs.
 - Layout successful. 
-![2:1 MUX Waveform]()
-![2:1 MUX Layout]()
+![2:1 MUX Waveform](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-FullAdder-/blob/main/CSA_Diagrams/21%20MUX%20schematic.png)
+![2:1 MUX Layout](https://github.com/Deepthi-S-G/Implementation-of-Low-Power-and-Efficient-Carry-Select-Adder-using-CMOS-Hybrid-Full-Adder-/blob/main/CSA_Diagrams/21%20MUX%20layout.png)
 #### 8-bit CSA
 - Layout passed DRC and LVS.
 - Final waveform shows accurate sum and carry generation.
